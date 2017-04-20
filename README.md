@@ -1,11 +1,11 @@
 Githubler REST Demo
 ===================
 
-An example applications demonstrating creation of a rest endpoint that in turn consumes the github rest api.
+An example application demonstrating creating a REST endpoint that consumes the github search api endpoint.
 
 ## Building and Running the Application 
 
-1. Update the application.properties files.
+1. Update the application.properties files.  
    In order to access github's api the caller needs to provide credentials. In this application these are stored in properties files: ./src/main/resources/application.properties, and ./src/test/resources/application.properties. 
 
    Generating a github token can be done [here](https://github.com/settings/tokens).
