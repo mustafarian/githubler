@@ -1,0 +1,30 @@
+*.class
+target
+faces-config.NavData
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid
+
+#jbds
+.project
+.settings/
+.loadpath
+bin/
+tmp/
+.metadata
+.classpath
+
+#idea
+.idea
+*.iml
+
+#temporary files
+*~
